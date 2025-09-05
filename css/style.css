@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(to right , #EFF1F4 , #B4C5D0);
+    color: #000;
+    font-family: "Inter", sans-serif;
+}
+.form {
+    background: #eef5fb70;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    width: 90%;
+}
+.form-control {
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 12px;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
+    color: #333;
+}
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.4);
+    outline: none;
+    box-shadow: none;
+}
+.btn {
+    background: rgba(255, 255, 255, 0.769);
+    color: #000;
+    border-radius: 10px;
+    transition: 0.3s;
+    position: relative;
+}
+.btn:hover {
+    box-shadow: 0px 0px 1px 1px inset #00000020;
+}
